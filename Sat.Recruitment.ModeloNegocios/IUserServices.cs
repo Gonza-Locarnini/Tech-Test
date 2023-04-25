@@ -1,14 +1,13 @@
 ﻿using Sat.Recruitment.Db.Models;
-using Sat.Recruitment.Api.ViewModel;
 using System.Collections.Generic;
 
-namespace Sat.Recruitment.Api.Services
+namespace Sat.Recruitment.ModeloNegocios
 {
     public interface IUserServices
     {
-        Result Create(UserViewModel vmUser);
+        Result Create(User vmUser);
 
-        Result Delete(UserViewModel vmUser);
+        Result Delete(User vmUser);
 
         List<User> Get();
         User Get(string email);

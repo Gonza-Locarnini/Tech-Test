@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Sat.Recruitment.Api.Services;
+using Sat.Recruitment.ModeloNegocios;
 
 namespace Sat.Recruitment.Api
 {
@@ -24,7 +24,7 @@ namespace Sat.Recruitment.Api
             services.AddControllers();
             services.AddSwaggerGen();
 
-            services.AddScoped<IUserServices, UserServices>();
+            services.AddScoped<IUserServices>();
 
             // *******************************************
             // GIT - https://github.com/nreco/logging

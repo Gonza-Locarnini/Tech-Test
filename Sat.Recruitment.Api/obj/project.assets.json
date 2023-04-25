@@ -257,6 +257,19 @@
         "runtime": {
           "bin/placeholder/Sat.Recruitment.Db.dll": {}
         }
+      },
+      "Sat.Recruitment.ModeloNegocios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Sat.Recruitment.Db": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Sat.Recruitment.ModeloNegocios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sat.Recruitment.ModeloNegocios.dll": {}
+        }
       }
     }
   },
@@ -666,6 +679,11 @@
       "type": "project",
       "path": "../Sat.Recruitment.Db/Sat.Recruitment.Db.csproj",
       "msbuildProject": "../Sat.Recruitment.Db/Sat.Recruitment.Db.csproj"
+    },
+    "Sat.Recruitment.ModeloNegocios/1.0.0": {
+      "type": "project",
+      "path": "../Sat.Recruitment.ModeloNegocios/Sat.Recruitment.ModeloNegocios.csproj",
+      "msbuildProject": "../Sat.Recruitment.ModeloNegocios/Sat.Recruitment.ModeloNegocios.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -675,6 +693,7 @@
       "NReco.Logging.File >= 1.1.6",
       "Newtonsoft.Json >= 13.0.3",
       "Sat.Recruitment.Db >= 1.0.0",
+      "Sat.Recruitment.ModeloNegocios >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
       "Swashbuckle.AspNetCore.Swagger >= 5.6.3"
     ]
@@ -708,6 +727,9 @@
           "projectReferences": {
             "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.Db\\Sat.Recruitment.Db.csproj": {
               "projectPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.Db\\Sat.Recruitment.Db.csproj"
+            },
+            "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj": {
+              "projectPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj"
             }
           }
         }

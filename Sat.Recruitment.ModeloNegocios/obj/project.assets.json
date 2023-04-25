@@ -1,0 +1,121 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LiteDB/5.0.16": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        }
+      },
+      "Sat.Recruitment.Db/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LiteDB": "5.0.16"
+        },
+        "compile": {
+          "bin/placeholder/Sat.Recruitment.Db.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sat.Recruitment.Db.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LiteDB/5.0.16": {
+      "sha512": "DMUYdRlgNbrSlyWzdQ4GqW934ntNHBGWMTNQlOL4hWz8WnveY6V9ZGo2ntPrSATW7kat8v5VoCXGSzToPiwZWw==",
+      "type": "package",
+      "path": "litedb/5.0.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "icon_64x64.png",
+        "lib/net45/LiteDB.dll",
+        "lib/net45/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.5.0.16.nupkg.sha512",
+        "litedb.nuspec"
+      ]
+    },
+    "Sat.Recruitment.Db/1.0.0": {
+      "type": "project",
+      "path": "../Sat.Recruitment.Db/Sat.Recruitment.Db.csproj",
+      "msbuildProject": "../Sat.Recruitment.Db/Sat.Recruitment.Db.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Sat.Recruitment.Db >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gonzalo.locarnini\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj",
+      "projectName": "Sat.Recruitment.ModeloNegocios",
+      "projectPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj",
+      "packagesPath": "C:\\Users\\gonzalo.locarnini\\.nuget\\packages\\",
+      "outputPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gonzalo.locarnini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.Db\\Sat.Recruitment.Db.csproj": {
+              "projectPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.Db\\Sat.Recruitment.Db.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -113,3 +113,5 @@ C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Test\obj\Debug\netcoreapp3.1
 C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Test\bin\Debug\netcoreapp3.1\NReco.Logging.File.dll
 C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Test\bin\Debug\netcoreapp3.1\Sat.Recruitment.Db.dll
 C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Test\bin\Debug\netcoreapp3.1\Sat.Recruitment.Db.pdb
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Test\bin\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.dll
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Test\bin\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.pdb

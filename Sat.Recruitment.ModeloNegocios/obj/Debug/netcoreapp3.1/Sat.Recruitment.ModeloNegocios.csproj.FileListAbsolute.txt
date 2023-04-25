@@ -1,0 +1,13 @@
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\bin\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.deps.json
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\bin\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.dll
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\bin\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.pdb
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\bin\Debug\netcoreapp3.1\Sat.Recruitment.Db.dll
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\bin\Debug\netcoreapp3.1\Sat.Recruitment.Db.pdb
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\obj\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.csproj.AssemblyReference.cache
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\obj\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\obj\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.AssemblyInfoInputs.cache
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\obj\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.AssemblyInfo.cs
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\obj\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.csproj.CoreCompileInputs.cache
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\obj\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.csproj.CopyComplete
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\obj\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.dll
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.ModeloNegocios\obj\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.pdb

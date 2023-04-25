@@ -1,7 +1,7 @@
 ﻿using Sat.Recruitment.Db.Models;
 using System;
 
-namespace Sat.Recruitment.Api.Extensions
+namespace Sat.Recruitment.Db.Extensions
 {
     public static class StringExtensions
     {

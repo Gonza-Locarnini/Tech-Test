@@ -1,9 +1,9 @@
 using Sat.Recruitment.Api.Controllers;
 using Sat.Recruitment.Db.Models;
 using Sat.Recruitment.Db.Models.Enums;
-using Sat.Recruitment.Api.Services;
-using Sat.Recruitment.Api.ViewModel;
 using Xunit;
+using Microsoft.AspNetCore.Mvc;
+using Sat.Recruitment.ModeloNegocios;
 
 namespace Sat.Recruitment.Test
 {
@@ -22,40 +22,37 @@ namespace Sat.Recruitment.Test
         [Fact]
         public void TestInsertAndDelete()
         {
-            Result r;
-            var testCase = new UserViewModel
+            var testCase = new User
             {
-                email = "mike@gmail.com",
-                name = "Mike",
-                address = "Av. Juan G",
-                phone = "+349 1122354215",
-                userType = eUserType.Normal,
-                money = 124
+                Email = "mike@gmail.com",
+                Name = "Mike",
+                Address = "Av. Juan G",
+                Phone = "+349 1122354215",
+                UserType = eUserType.Normal,
+                Money = 124
             };
 
-            var u = _usersController.GetByEmail(testCase.email);
-            if (u != null && u.GetType() == typeof(User))
+            var u = _usersController.GetByEmail(testCase.Email);
+            if (u != null && u.GetType() == typeof(OkObjectResult))
             {
-                r = _usersController.Delete(testCase);
-                Assert.True(r.IsSuccess);
+                var r = _usersController.Delete(testCase);
+                Assert.IsType<OkObjectResult>(r);
             }
 
-            r = _usersController.CreateUser(testCase);
-
-            Assert.True(r.IsSuccess);
+            var r2 = _usersController.Create(testCase);
+            Assert.IsType<OkObjectResult>(r2);
         }
 
         [Fact]
         public void TestGetByEmail()
         {
-            Result r;
-            var testCase = new UserViewModel
+            var testCase = new User
             {
-                email = "mike@gmail.com"
+                Email = "mike@gmail.com"
             };
 
-            var u = _usersController.GetByEmail(testCase.email);
-            Assert.IsType<User>(u);
+            var u = _usersController.GetByEmail(testCase.Email);
+            Assert.IsType<OkObjectResult>(u);
         }
     }
 }

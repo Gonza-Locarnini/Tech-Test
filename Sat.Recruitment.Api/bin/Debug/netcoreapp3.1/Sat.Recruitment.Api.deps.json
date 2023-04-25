@@ -36,6 +36,7 @@
           "NReco.Logging.File": "1.1.6",
           "Newtonsoft.Json": "13.0.3",
           "Sat.Recruitment.Db": "1.0.0",
+          "Sat.Recruitment.ModeloNegocios": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Swashbuckle.AspNetCore.Swagger": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -485,6 +486,17 @@
         },
         "compile": {
           "Sat.Recruitment.Db.dll": {}
+        }
+      },
+      "Sat.Recruitment.ModeloNegocios/1.0.0": {
+        "dependencies": {
+          "Sat.Recruitment.Db": "1.0.0"
+        },
+        "runtime": {
+          "Sat.Recruitment.ModeloNegocios.dll": {}
+        },
+        "compile": {
+          "Sat.Recruitment.ModeloNegocios.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2335,6 +2347,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512"
     },
     "Sat.Recruitment.Db/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sat.Recruitment.ModeloNegocios/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

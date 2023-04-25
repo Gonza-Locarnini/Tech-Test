@@ -1145,6 +1145,7 @@
           "NReco.Logging.File": "1.1.6",
           "Newtonsoft.Json": "13.0.3",
           "Sat.Recruitment.Db": "1.0.0",
+          "Sat.Recruitment.ModeloNegocios": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Swashbuckle.AspNetCore.Swagger": "5.6.3"
         },
@@ -1158,6 +1159,14 @@
         },
         "runtime": {
           "Sat.Recruitment.Db.dll": {}
+        }
+      },
+      "Sat.Recruitment.ModeloNegocios/1.0.0": {
+        "dependencies": {
+          "Sat.Recruitment.Db": "1.0.0"
+        },
+        "runtime": {
+          "Sat.Recruitment.ModeloNegocios.dll": {}
         }
       }
     }
@@ -1930,6 +1939,11 @@
       "sha512": ""
     },
     "Sat.Recruitment.Db/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sat.Recruitment.ModeloNegocios/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

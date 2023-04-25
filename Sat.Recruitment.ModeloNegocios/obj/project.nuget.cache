@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yYJeg+ZhH0cQrjS828Np40QZ3aY+2xUBHcoRmNy1yh3hYnkYuQleCfStUkIi6MNX3nggZCFPQtMflNZlgBgE4g==",
+  "success": true,
+  "projectFilePath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gonzalo.locarnini\\.nuget\\packages\\litedb\\5.0.16\\litedb.5.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -29,3 +29,5 @@ C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\
 C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\NReco.Logging.File.dll
 C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\Sat.Recruitment.Db.dll
 C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\Sat.Recruitment.Db.pdb
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.dll
+C:\Test\Paramo-Tech\Sat.Recruitment\Sat.Recruitment.Api\bin\Debug\netcoreapp3.1\Sat.Recruitment.ModeloNegocios.pdb

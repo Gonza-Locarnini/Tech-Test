@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace Sat.Recruitment.Api.Extensions
+namespace Sat.Recruitment.Db.Extensions
 {
     public static class DbModelsExtensions
     {

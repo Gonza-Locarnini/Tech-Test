@@ -1,15 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Sat.Recruitment.Api.Extensions;
 using Sat.Recruitment.Db.Models;
-using Sat.Recruitment.Api.Services;
-using Sat.Recruitment.Api.ViewModel;
-using System.Collections.Generic;
+using Sat.Recruitment.ModeloNegocios;
 
 namespace Sat.Recruitment.Api.Controllers
 {
 
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class UsersController : ControllerBase
     {
         private readonly IUserServices _userServices;
@@ -19,23 +16,44 @@ namespace Sat.Recruitment.Api.Controllers
         }
 
         [HttpGet]
-        public List<User> Get() =>
-            _userServices.Get();
+        public IActionResult GetAll()
+        {
+            var users = _userServices.Get();
+            return Ok(users);
+        }
 
-        [HttpGet]
-        [Route("{email}")]
-        public User GetByEmail(string email) =>
-            _userServices.Get(email);
+        [HttpGet("{email}")]
+        public IActionResult GetByEmail(string email)
+        {
+            var user = _userServices.Get(email);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return Ok(user);
+        }
 
         [HttpPost]
-        [Route("create-user")]
-        public Result CreateUser(UserViewModel user) =>
-            _userServices.Create(user);
+        public IActionResult Create([FromBody] User user)
+        {
+            var result = _userServices.Create(user);
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result);
+            }
+            return Ok(result);
+        }
 
-        [HttpPost]
-        [Route("delete-user")]
-        public Result Delete(UserViewModel user) =>
-            _userServices.Delete(user);
+        [HttpDelete]
+        public IActionResult Delete([FromBody] User user)
+        {
+            var result = _userServices.Delete(user);
+            if (!result.IsSuccess)
+            {
+                return BadRequest(result);
+            }
+            return Ok(result);
+        }
 
 
     }

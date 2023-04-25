@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.Db\\Sat.Recruitment.Db.csproj": {
                 "projectPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.Db\\Sat.Recruitment.Db.csproj"
+              },
+              "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj": {
+                "projectPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj"
               }
             }
           }
@@ -132,6 +135,64 @@
               "version": "[5.0.16, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj",
+        "projectName": "Sat.Recruitment.ModeloNegocios",
+        "projectPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\Sat.Recruitment.ModeloNegocios.csproj",
+        "packagesPath": "C:\\Users\\gonzalo.locarnini\\.nuget\\packages\\",
+        "outputPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.ModeloNegocios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gonzalo.locarnini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.Db\\Sat.Recruitment.Db.csproj": {
+                "projectPath": "C:\\Test\\Paramo-Tech\\Sat.Recruitment\\Sat.Recruitment.Db\\Sat.Recruitment.Db.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
